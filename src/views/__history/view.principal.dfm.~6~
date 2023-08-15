@@ -1,0 +1,24 @@
+object ViewPrincipal: TViewPrincipal
+  Left = 0
+  Top = 0
+  Align = alClient
+  BorderStyle = bsNone
+  Caption = 'ERPSistema'
+  ClientHeight = 731
+  ClientWidth = 988
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object pnlTopo: TPanel
+    Left = 128
+    Top = 248
+    Width = 185
+    Height = 41
+    Caption = 'pnlTopo'
+    TabOrder = 0
+  end
+end

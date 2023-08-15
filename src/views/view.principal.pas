@@ -1,0 +1,39 @@
+unit view.principal;
+
+interface
+
+uses
+
+ System.SysUtils,
+ System.Variants,
+ System.Classes,
+
+  Vcl.Graphics,
+  Vcl.Controls,
+  Vcl.Forms,
+  Vcl.Dialogs,
+
+  Winapi.Windows,
+  Winapi.Messages,
+  view.base, Vcl.ExtCtrls;
+
+type
+  TViewPrincipal = class(TViewBase)
+    pnlTopo: TPanel;
+    pnlBackground: TPanel;
+    pnlMenu: TPanel;
+    pnlTDI: TPanel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  ViewPrincipal: TViewPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+end.
